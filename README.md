@@ -17,3 +17,8 @@ mv insomnia-plugin-wal-theme ~/.config/Insomnia/plugins/insomnia-plugin-wal-them
 ```
 
 3. In Insomnia - Settings -> Themes -> Wal
+
+## Screenshots
+
+![Home](home.png)
+![Requst](request.png)
