@@ -8,6 +8,8 @@ Currently only tested and works with Linux. I don't have a Windows install to te
 
 ## Installation
 
+Note: You must have run `wal -i path/to/image.png` before using this plugin.
+
 1. Download or clone this repo.
 2. Move the folder to `~/.config/Insomnia/plugins/`.
 
