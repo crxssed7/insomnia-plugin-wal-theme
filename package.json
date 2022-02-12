@@ -1,0 +1,10 @@
+{
+  "name": "insomnia-plugin-wal-theme",
+  "version": "0.0.1",
+  "private": true,
+  "insomnia": {
+    "name": "wal-theme",
+    "description": "Generated an Isomnia theme based off of your Wal cache."
+  },
+  "main": "main.js"
+}
