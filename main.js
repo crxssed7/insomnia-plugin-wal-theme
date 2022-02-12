@@ -6,7 +6,6 @@ var os = require("os")
 // Wal colors file
 var filenm = os.homedir() + "/.cache/wal/colors"
 var raw = fs.readFileSync(filenm, 'utf8')
-console.log(raw)
 colors = raw.split(/\n/)
 background_default = colors[0]
 foreground_default = colors[7]
@@ -25,7 +24,7 @@ module.exports.themes = [{
             notice: colors[3],  // PATCH request
             warning: colors[4],  // PUT request
             danger: colors[5],  // DELETE request
-            surprise: colors[10],  // accent (Dashboard link, GET request, 
+            surprise: colors[11],  // accent (Dashboard link, GET request, 
             // SEND button, branch button, add plugin button)
             info: colors[9]   // OPTIONS AND HEAD request
         },
@@ -45,13 +44,13 @@ module.exports.themes = [{
         styles: {
             appHeader: {
                 foreground: {
-                    surprise: '#000'  // header branch button font color
+                    surprise: foreground_default  // header branch button font color
                 }
             },
             paneHeader: {
                 foreground: {
-                    surprise: '#000', // pane accent font color
-                    info: '#000'  // pane response font color
+                    surprise: foreground_default, // pane accent font color
+                    info: foreground_default  // pane response font color
                 }
             },
             editor: {
